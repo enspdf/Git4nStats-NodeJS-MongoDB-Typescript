@@ -1,0 +1,2 @@
+export const gistsEndpoint = (username: string) => `https://api.github.com/users/${username}/gists`
+export const eventsEndpoint = (username: string) => `https://api.github.com/users/${username}/events`;
